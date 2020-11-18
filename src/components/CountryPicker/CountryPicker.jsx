@@ -1,7 +1,7 @@
 import React from 'react'
 
 const CountryPicker = () => {
-    retrn(
+    return (
         <h1>CountryPicker</h1>
     )
 }
