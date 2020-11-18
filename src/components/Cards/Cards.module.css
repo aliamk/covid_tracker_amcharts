@@ -1,0 +1,29 @@
+.container {
+    margin: 50px 0;
+  }
+
+   /* Each card will have left and right margin - need important! for material-ui  */
+  .card {
+    margin: 0 2% !important;
+  }
+  
+  /* This only applies to the infected card */
+  .infected {
+    border-bottom: 10px solid rgba(0, 0, 255, 0.5)
+  }
+  
+  /* This only applies to the recovered card */
+  .recovered {
+    border-bottom: 10px solid rgba(0, 255, 0, 0.5)
+  }
+  
+  /* This only applies to the deaths card */
+  .deaths {
+    border-bottom: 10px solid rgba(255, 0, 0, 0.5)
+  }
+  
+  @media (max-width: 770px) {
+    .card {
+      margin: 2% 0 !important;
+    }
+  }
